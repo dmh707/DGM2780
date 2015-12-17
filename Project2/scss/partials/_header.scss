@@ -1,0 +1,27 @@
+// Header SCSS
+
+#header {
+
+    nav {
+    	float: right;
+		
+		li {
+			list-style-type: none;
+			float: left;
+		}	
+
+	}
+}// #header
+#footer { 
+	@extend #header;
+	text-align: center;
+	
+	nav{
+		float: none; 
+		li { 
+			float: none;
+			display: inline;
+			list-style-type: none; 
+		}
+	}
+}

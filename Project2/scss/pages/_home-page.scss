@@ -1,0 +1,29 @@
+// Home Page SCSS
+body{
+	background-color: $light-color;
+	
+	#home-page {
+
+		h1 {
+			color: $med-color;	
+		}
+		p {
+			color: $dark-color;
+		}
+		img {
+			@include border-radius(10px);
+			width: 8px / 40px * 100%;
+			margin-left: $img-margin;
+			margin-right: $img-margin;
+		}
+
+		.col {
+			width: 9px / 20px * 100%;
+			margin-left: $img-margin;
+			float: left;
+		}
+	}// #home-page
+	.downboy {
+		clear: both;
+	}
+}
